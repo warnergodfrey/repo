@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="ssh://git@github.com" />
+           fetch="https://github.com" />
 
-         <default revision="refs/heads/master"
+         <default revision="master"
            remote="github"
            sync-s="false"
            sync-j="4" />
